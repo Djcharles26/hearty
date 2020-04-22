@@ -72,6 +72,22 @@ a  {
   font-family: 'Righteous';
 }
 
+
+.card-header, .card-footer  {
+  font-family: 'Bangers';
+  background-color: #fdcb6e !important;
+}
+
+.card-body {
+  background-color: #e17055 !important;
+  height: 170px;
+}
+
+.card p {
+  font-family: 'Righteous';
+  font-size: 20px;
+}
+
 .btn-action span {
   font-size: 40px;
   font-family: "Bangers";

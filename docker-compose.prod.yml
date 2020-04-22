@@ -1,0 +1,15 @@
+version: '3'
+services:
+  client:
+    restart: always
+    image: tng/tng-website-client:production
+    environment:
+      - CURR_ENV=production
+
+  nginx:
+    restart: always
+    image: tng/tng-website-nginx:production
+    ports:
+      - '80:80'
+    depends_on:
+      - client
